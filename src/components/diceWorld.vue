@@ -48,7 +48,7 @@ export default{
             </tr>
         </tbody>
     </table>
-        <button  v-on:click="throwDice()">Gooi!</button>
+    <button  v-on:click="throwDice()">Gooi!</button>
 
-        <div>Uitkomst van je worp: {{outcome.join(', ')}}</div>
+    <div>Uitkomst van je worp: {{outcome.join(', ')}}</div>
 </template>
